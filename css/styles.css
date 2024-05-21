@@ -595,52 +595,42 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 1244px) {
-  .nav-btn h1 {
-    font-size: 2rem;
-  }
+@media (max-width: 1244px) {}
 
-  nav ul li {
-    font-size: .8rem;
-  }
-
-  .navbar-container.scroll {
-    left: 8.9rem;
-  }
-}
-
-@media (max-width: 1128px) {
-  .navbar-brand h1 {
-    font-size: 1.2rem;
-  }
-
-  .navbar-container {
-    left: 8rem;
-  }
-
-  .navbar-container.scroll {
-    width: 80.2vw;
-    left: 6.9rem;
-  }
-
-}
+@media (max-width: 1128px) {}
 
 @media (max-width: 1024px) {
+  :root {
+    --h1-size: 2.5rem;
+    --h2-size: 2rem;
+    --p-size: .9rem;
+  }
+
+  nav ul {
+    display: none;
+  }
 
   .navbar-container {
-    left: .8rem;
+    width: 81vw;
+    left: 3rem;
+  }
+
+  .navbar-container.scroll {
+    left: 1.9rem;
+    width: 82.2vw;
+  }
+
+  .navbar-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-container h1 {
+    margin-top: 3rem;
+    font-size: var(--h2-size);
   }
 
   .navbar-toggle {
     display: block;
-  }
-
-  .navbar-container {
-    position: relative;
-  }
-
-  nav ul li {
-    display: none;
   }
 
   #hero,
