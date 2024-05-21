@@ -2,7 +2,7 @@
 
 :root {
   --primary-bg: #FFF;
-  --text-color: #000;
+  --text-color: #242424;
   --green-color: #1649ff;
   --gray-color: #525252;
   --hover-color: #4970ff;
@@ -79,16 +79,17 @@ nav ul li a {
 }
 
 .nav-btn {
-  padding: .8em 2em;
-  border-radius: 10px;
+  font-weight: 400;
+  padding: .6em 2em;
+  border-radius: 5px;
   color: #FFF;
-  background: var(--green-color);
+  background: #242424;
   transition: all .3s ease;
 }
 
 .nav-btn:hover {
   color: #FFF;
-  background: var(--hover-color);
+  background: #494949;
 }
 
 nav ul li a:hover {
@@ -144,6 +145,9 @@ nav ul li a:hover {
 .hero-btn {
   margin-top: 3em;
   margin-bottom: 1rem;
+  background-color: #000;
+  color: #FFF;
+  transition: all .3s ease;
 }
 
 .hero-img {
@@ -182,10 +186,10 @@ nav ul li a:hover {
   /* For Safari */
   -moz-appearance: none;
   /* For Firefox */
-  background: url('/assets/arrow-down-solid.svg') no-repeat 17rem center;
+  background: url('/assets/arrow-down-solid.svg') no-repeat 14rem center;
   /* Adjust padding to your needs */
   background-color: #FFF;
-  background-size: 17px;
+  background-size: 13px;
   padding: 1.3em;
 }
 
@@ -315,7 +319,7 @@ nav ul li a:hover {
 }
 
 .listing-top-text p {
-  font-size: var(--p-size);
+  font-size: 1.1rem;
   color: var(--gray-color);
   margin-bottom: 1rem;
 }
@@ -456,6 +460,7 @@ nav ul li a:hover {
 .test-card-details {
   display: flex;
   gap: .5rem;
+  align-items: center;
 }
 
 .test-card-details h6 {
@@ -554,7 +559,7 @@ nav ul li a:hover {
 .btn {
   padding: 1em 3em;
   color: #FFF;
-  background: var(--green-color);
+  background: #242424;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -564,7 +569,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-  background: var(--hover-color);
+  background: #494949;
 }
 
 .btn-secondary {
@@ -606,13 +611,32 @@ nav ul li a:hover {
     --p-size: .9rem;
   }
 
+  .feature-text h2,
+  .cta-left h2 {
+    margin-top: 2rem;
+    line-height: 1.2;
+  }
+
+  #listing {
+    margin-bottom: 3rem;
+  }
+
+  .cta-left {
+    padding: 0rem .6rem;
+  }
+
+
+  .web-wrapper {
+    max-width: 93%;
+  }
+
   nav ul {
     display: none;
   }
 
   .navbar-container {
-    width: 81vw;
-    left: 3rem;
+    width: 93vw;
+    left: 1rem;
   }
 
   .navbar-container.scroll {
