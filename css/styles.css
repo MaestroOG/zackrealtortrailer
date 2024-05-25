@@ -635,7 +635,7 @@ nav ul li a:hover {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(/assets/arrow-down-solid.svg) no-repeat 19rem center;
+    background: url(/assets/arrow-down-solid.svg) no-repeat 13rem center;
     background-color: #FFF;
     background-size: 13px;
     padding: 1.3em;
@@ -731,7 +731,7 @@ nav ul li a:hover {
   }
 
   .btn {
-    width: 41%;
+    width: 59%;
   }
 
   .listing-more-btn {
